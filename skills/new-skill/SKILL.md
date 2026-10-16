@@ -41,8 +41,10 @@ The local clone is normally at `C:\Users\gates\claude-skills`. If it isn't there
 
 7. Tell the user to run `/plugin marketplace update claude-skills` (or restart Claude Code) to pick up the change.
 
-If the `skill-creator` skill is available, use it to draft and test the skill's content; this skill only covers where it goes and how it's published.
+For drafting and testing the skill's content, use the `skill-creator` skill (also in this repo); this skill only covers where it goes and how it's published.
 
-## Never copy in
+## Copying skills from elsewhere
 
-Don't add Anthropic's built-in skills (docx, pdf, pptx, xlsx and the rest in the app's `anthropic-skills` bundle) or another plugin's skills unless their license allows it. The built-in ones are licensed against copying outside Claude.
+Don't add Anthropic's built-in skills (the app's `anthropic-skills` bundle, such as deep-research, google-workspace or morning) or another plugin's skills unless their license allows it. The built-in ones are licensed against copying outside Claude.
+
+A skill under a permissive license (Apache-2.0, MIT) can be copied in from its public repo. Keep its license file, either inside the skill's folder or in `licenses/`. In the README, list it under the repo it came from, with the upstream commit.
