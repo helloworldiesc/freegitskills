@@ -1,0 +1,9 @@
+{
+  "name": "my-skills",
+  "description": "Personal skills, written for my own workflows.",
+  "version": "0.1.0",
+  "author": {
+    "name": "helloworldiesc"
+  },
+  "repository": "https://github.com/helloworldiesc/freegitskills"
+}
